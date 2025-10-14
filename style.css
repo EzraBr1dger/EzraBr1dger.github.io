@@ -612,11 +612,12 @@ body {
 }
 
 .premium-card:hover .project-media {
-    height: 350px;
+    transform: scale(1.02);
 }
 
-.premium-card:hover .project-media video {
-    object-fit: contain;
+.premium-card:hover .project-media video,
+.premium-card:hover .project-media iframe {
+    transform: scale(1.05);
 }
 
 .video-placeholder, .image-placeholder {
