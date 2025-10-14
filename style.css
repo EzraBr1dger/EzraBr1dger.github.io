@@ -588,7 +588,7 @@ body {
 .project-media {
     position: relative;
     width: 100%;
-    max-height: 300px; /* Limit the height */
+    height: 300px; /* Use fixed height instead of max-height */
     overflow: hidden;
     background: #1a1a1a;
     border-radius: 12px;
