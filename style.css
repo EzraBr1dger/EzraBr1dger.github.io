@@ -588,8 +588,7 @@ body {
 .project-media {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
+    max-height: 300px; /* Limit the height */
     overflow: hidden;
     background: #1a1a1a;
     border-radius: 12px;
