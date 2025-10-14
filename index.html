@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezra Bridger - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Ezra Bridger</span>
+                <div class="logo-particles"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch-text" data-text="Full-Stack Developer">Full-Stack Developer</h1>
+                <h2 class="typewriter">& Systems Architect</h2>
+                <p class="hero-description">BSc Computer Science with Honours - Specializing in scalable systems, game development, and innovative solutions</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary glow-btn">
+                    <span>Explore Projects</span>
+                    <div class="btn-particles"></div>
+                </a>
+                <a href="#contact" class="btn-secondary glass-btn">
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">About Me</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-card glass-effect">
+                        <p>Computer Science Honours graduate with extensive experience in full-stack development, 3D modeling, and complex system architecture. I create robust, scalable solutions that push the boundaries of what's possible.</p>
+                        <p>From Firebase-powered global systems to advanced medical simulations, my work combines technical excellence with creative problem-solving to deliver exceptional user experiences. This is all ultimately linked to the Global Ammo system I have created to give players a limited medical supply.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>BSc Honours</h3>
+                        <p>Computer Science</p>
+                        <div class="stat-glow"></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>4+ Years</h3>
+                        <p>Development</p>
+                        <div class="stat-glow"></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>15+ Projects</h3>
+                        <p>Completed</p>
+                        <div class="stat-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Featured Projects</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <video controls>
+                            <source src="assets/videos/FrontendAdminPage.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Global Ammo System</h3>
+                        <p>Advanced Firebase-integrated system with Node.js frontend for real-time ammo management across multiple game servers. Features batch processing, emergency data persistence, cross-server synchronization, and Discord webhook notifications to alert administrators of system changes and transactions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Lua</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Discord API</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.roblox.com/games/76604908865157/CW-P-Ammo-Spawner" class="project-link" target="_blank">
+                                <i class="fas fa-gamepad"></i> Play Game
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <video controls>
+                            <source src="assets/videos/FrontendNodeJs.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Frontend Admin Dashboard</h3>
+                        <p>Node.js-based administrative frontend for the Global Ammo System. Provides real-time monitoring, transaction management, and system controls with intuitive user interface for managing cross-server supply distribution.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Real-time UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <video controls>
+                            <source src="assets/videos/HuntingVideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Integrated Hunting System</h3>
+                        <p>Comprehensive hunting mechanics integrated with custom weapon systems. Features animal AI, realistic hunting physics, meat collection on kill, and cooking functionality through the placement system. Creates immersive survival gameplay loop.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Lua</span>
+                            <span class="tech-tag">Game AI</span>
+                            <span class="tech-tag">Physics</span>
+                            <span class="tech-tag">Inventory Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <video controls>
+                            <source src="assets/videos/CraftingSystem.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Advanced Crafting System</h3>
+                        <p>Fully integrated crafting and placement system with dynamic inventory management. Features recipe-based crafting, object placement mechanics, and interactive elements like fireplaces that dynamically ignite and extinguish for cooking food items.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Lua</span>
+                            <span class="tech-tag">Inventory Systems</span>
+                            <span class="tech-tag">Object Placement</span>
+                            <span class="tech-tag">Dynamic Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                    <iframe 
+                        src="https://youtu.be/7KeFAm3wq_4" 
+                        title="Global Ammo System"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Advanced Medical System</h3>
+                        <p>Comprehensive medical simulation featuring bleeding mechanics, fracture systems, fall damage calculations, tourniquet applications, and overdose effects with realistic consequences.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Lua</span>
+                            <span class="tech-tag">Game Systems</span>
+                            <span class="tech-tag">Simulation</span>
+                            <span class="tech-tag">Physics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.roblox.com/games/115227719801701/CW-P-Bacta-Tank" class="project-link" target="_blank">
+                                <i class="fas fa-gamepad"></i> Play Game
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <video controls>
+                            <source src="assets/videos/TerrainGeneration.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Random Terrain Generation</h3>
+                        <p>Procedural terrain generation system using advanced algorithms to create realistic, varied landscapes. Features dynamic biome distribution, resource placement, and performance optimization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Lua</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Procedural Gen</span>
+                            <span class="tech-tag">Optimization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card">
+                    <div class="card-glow"></div>
+                    <div class="project-media">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cube"></i>
+                            <p>3D Weapon Models</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>3D Weapon Modeling</h3>
+                        <p>High-quality weapon models created in Blender featuring detailed textures, realistic proportions, and optimized geometry for game environments.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Blender</span>
+                            <span class="tech-tag">3D Modeling</span>
+                            <span class="tech-tag">Texturing</span>
+                            <span class="tech-tag">Game Assets</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-images"></i> Gallery
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card featured">
+                    <div class="card-glow"></div>
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Professional Work</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Unlimited Project Studio</h3>
+                        <p>Professional development work for Unlimited Project Studio, contributing to large-scale game systems and architecture. Collaborated on advanced features and performance optimizations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Professional</span>
+                            <span class="tech-tag">Team Collaboration</span>
+                            <span class="tech-tag">Large Scale</span>
+                            <span class="tech-tag">Architecture</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://unlimitedprojectstudio.com/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Studio Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-text">Technical Arsenal</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Lua</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Databases & Backend</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Firebase</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>DataStore</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>REST APIs</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>System Architecture</span>
+                            <div class="skill-level" data-level="88"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3>3D & Design</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Blender</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>3D Modeling</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Game Assets</span>
+                            <div class="skill-level" data-level="82"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Texturing</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Game Development</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Roblox Studio</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Game Systems</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Performance Optimization</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Cross-Server Sync</span>
+                            <div class="skill-level" data-level="88"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title white">
+                <span class="title-text">Let's Connect</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="contact-content">
+                <p class="contact-intro">Ready to bring your ideas to life? Let's discuss your next project.</p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:ezrabr1dgertm@gmail.com">ezrabr1dgertm@gmail.com</a>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Ezra_Br1dger" target="_blank">View My Code</a>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Available</h3>
+                        <span>Open for opportunities</span>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Ezra Bridger. Crafted with passion and code.</p>
+                <div class="footer-links">
+                    <a href="#top">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
