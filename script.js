@@ -37,6 +37,37 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// Image Carousel Functions
+function changeSlide(button, direction) {
+    const carousel = button.closest('.image-carousel');
+    const images = carousel.querySelectorAll('.carousel-image');
+    const dots = carousel.querySelectorAll('.dot');
+    let currentIndex = Array.from(images).findIndex(img => img.classList.contains('active'));
+    
+    images[currentIndex].classList.remove('active');
+    dots[currentIndex].classList.remove('active');
+    
+    currentIndex += direction;
+    
+    if (currentIndex >= images.length) currentIndex = 0;
+    if (currentIndex < 0) currentIndex = images.length - 1;
+    
+    images[currentIndex].classList.add('active');
+    dots[currentIndex].classList.add('active');
+}
+
+function currentSlide(dot, slideIndex) {
+    const carousel = dot.closest('.image-carousel');
+    const images = carousel.querySelectorAll('.carousel-image');
+    const dots = carousel.querySelectorAll('.dot');
+    
+    images.forEach(img => img.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    
+    images[slideIndex - 1].classList.add('active');
+    dots[slideIndex - 1].classList.add('active');
+}
+
 // Typewriter effect
 function typeWriter(element, text, speed = 100) {
     let i = 0;
